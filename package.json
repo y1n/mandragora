@@ -1,0 +1,27 @@
+{
+  "name": "mandragora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.0.0",
+    "@grammyjs/auto-retry": "^1.1.1",
+    "@grammyjs/ratelimiter": "^1.2.0",
+    "@grammyjs/runner": "^2.0.3",
+    "@grammyjs/transformer-throttler": "^1.2.1",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "grammy": "^1.17.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.0.0-beta.8"
+  },
+  "devDependencies": {
+    "blocked-at": "^1.2.0"
+  }
+}
